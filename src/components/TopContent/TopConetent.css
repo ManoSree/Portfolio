@@ -1,0 +1,72 @@
+@import url(https://fonts.google.com/specimen/Montserrat?query=Montserr);
+
+.topcontent{
+    color: white;
+    position: relative;
+}
+
+.topcontent_container{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+
+.topcontent_container > p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 3px;
+    padding-top: 20px;
+    
+}
+
+.topcontent_container > a > button{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+}
+
+.topcontent_container > h1 {
+    font-size: 50px;
+    font-family:"Montserrat", sans-serif;
+}
+
+.topcontent_downloadbtn{
+    color: white;
+    background-color: #f64c00;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 9px 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right:20px ;
+
+}
+
+.topcontent_downloadbtn:hover{
+    color: #f64c00;
+    background-color: white;
+    font-weight: 600;
+}
+
+.topcontent_workbtn{
+   color: white;
+   border: 1px solid white !important;
+   background-color: transparent;
+   font-size: 14px;
+   padding: 9px 45px;
+   font-family:"Montserrat", sans-serif ;
+   font-weight: 300;
+   cursor: pointer;
+}
+
+.topcontent_workbtn:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+
+}

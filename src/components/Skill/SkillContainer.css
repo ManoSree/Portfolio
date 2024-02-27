@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.skillcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+}
+h1{
+    padding: 30px;
+}
+
+.skillcontainer_text{
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.skillcontainer_text > h2{
+    font-size: 30px;
+}
+
+.skillcontainer_image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.skillcontainer_image > img{
+    width: 600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.skillcontainer_skillset > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+/* Assuming you've imported the Montserrat font at the top of your CSS file */
+
+.skillcontainer_slider1 .MuiLinearProgress-colorPrimary {
+    background-color: rgb(88, 88, 88); /* Color for the track */
+}
+
+.skillcontainer_slider1 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(223, 196, 42); /* Color for the progress bar */
+}
+
+.skillcontainer_slider2 .MuiLinearProgress-colorPrimary {
+    background-color: rgb(88, 88, 88); /* Repeat for consistency or adjust as needed */
+}
+
+.skillcontainer_slider2 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(211, 38, 7);
+}
+
+.skillcontainer_slider3 .MuiLinearProgress-colorPrimary {
+    background-color: rgb(88, 88, 88);
+}
+
+.skillcontainer_slider3 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(11, 235, 59);
+}
+
+.skillcontainer_slider4 .MuiLinearProgress-colorPrimary {
+    background-color: rgb(88, 88, 88);
+}
+
+.skillcontainer_slider4 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(145, 102, 245);
+}
+
+.skillcontainer_slider5 .MuiLinearProgress-colorPrimary {
+    background-color: rgb(88, 88, 88);
+}
+
+.skillcontainer_slider5 .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(207, 44, 107);
+}
